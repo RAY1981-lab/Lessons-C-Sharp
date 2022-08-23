@@ -1,0 +1,15 @@
+E:\Programming\Lessons C#\Урок 21 - Сортировка массива\bin\Debug\net6.0\Урок 21 - Сортировка массива.exe
+E:\Programming\Lessons C#\Урок 21 - Сортировка массива\bin\Debug\net6.0\Урок 21 - Сортировка массива.deps.json
+E:\Programming\Lessons C#\Урок 21 - Сортировка массива\bin\Debug\net6.0\Урок 21 - Сортировка массива.runtimeconfig.json
+E:\Programming\Lessons C#\Урок 21 - Сортировка массива\bin\Debug\net6.0\Урок 21 - Сортировка массива.dll
+E:\Programming\Lessons C#\Урок 21 - Сортировка массива\bin\Debug\net6.0\Урок 21 - Сортировка массива.pdb
+E:\Programming\Lessons C#\Урок 21 - Сортировка массива\obj\Debug\net6.0\Урок 21 - Сортировка массива.csproj.AssemblyReference.cache
+E:\Programming\Lessons C#\Урок 21 - Сортировка массива\obj\Debug\net6.0\Урок 21 - Сортировка массива.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programming\Lessons C#\Урок 21 - Сортировка массива\obj\Debug\net6.0\Урок 21 - Сортировка массива.AssemblyInfoInputs.cache
+E:\Programming\Lessons C#\Урок 21 - Сортировка массива\obj\Debug\net6.0\Урок 21 - Сортировка массива.AssemblyInfo.cs
+E:\Programming\Lessons C#\Урок 21 - Сортировка массива\obj\Debug\net6.0\Урок 21 - Сортировка массива.csproj.CoreCompileInputs.cache
+E:\Programming\Lessons C#\Урок 21 - Сортировка массива\obj\Debug\net6.0\Урок 21 - Сортировка массива.dll
+E:\Programming\Lessons C#\Урок 21 - Сортировка массива\obj\Debug\net6.0\refint\Урок 21 - Сортировка массива.dll
+E:\Programming\Lessons C#\Урок 21 - Сортировка массива\obj\Debug\net6.0\Урок 21 - Сортировка массива.pdb
+E:\Programming\Lessons C#\Урок 21 - Сортировка массива\obj\Debug\net6.0\Урок 21 - Сортировка массива.genruntimeconfig.cache
+E:\Programming\Lessons C#\Урок 21 - Сортировка массива\obj\Debug\net6.0\ref\Урок 21 - Сортировка массива.dll

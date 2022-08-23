@@ -41,7 +41,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Урок 18 - Количе�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Урок 19 - Сумма нечётных элементов массива", "..\Урок 19 - Сумма нечётных элементов массива\Урок 19 - Сумма нечётных элементов массива.csproj", "{033160E5-9B36-4365-993B-BABB47F130CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Урок 20 - Массив. Разница между максимальным и минимальным значением", "..\Урок 20 - Массив. Разница между максимальным и минимальным значением\Урок 20 - Массив. Разница между максимальным и минимальным значением.csproj", "{B20CFD7A-5DFA-47AC-BCC0-7A60980128CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Урок 20 - Массив. Разница между максимальным и минимальным значением", "..\Урок 20 - Массив. Разница между максимальным и минимальным значением\Урок 20 - Массив. Разница между максимальным и минимальным значением.csproj", "{B20CFD7A-5DFA-47AC-BCC0-7A60980128CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Урок 21 - Сортировка массива", "..\Урок 21 - Сортировка массива\Урок 21 - Сортировка массива.csproj", "{1FA3BAED-FB0C-4131-809D-CA0EBEC13B36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{B20CFD7A-5DFA-47AC-BCC0-7A60980128CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B20CFD7A-5DFA-47AC-BCC0-7A60980128CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B20CFD7A-5DFA-47AC-BCC0-7A60980128CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FA3BAED-FB0C-4131-809D-CA0EBEC13B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FA3BAED-FB0C-4131-809D-CA0EBEC13B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FA3BAED-FB0C-4131-809D-CA0EBEC13B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FA3BAED-FB0C-4131-809D-CA0EBEC13B36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

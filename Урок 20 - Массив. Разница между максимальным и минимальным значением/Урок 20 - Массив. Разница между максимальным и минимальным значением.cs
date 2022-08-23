@@ -1,43 +1,46 @@
-﻿// Создайте одномерный массив, заполненный случайними числами.
-// Найдите сумму элементов, стоящих на нечётных позициях
+﻿// Создайте одномерный массив, заполненный случайними вещественными числами.
+// Найдите разницу между максимальным и минимальным элементами массива.
 
-float[] InputArray(int size)
+double[] InputArray(int size)
 {
-    float[] massive = new float[size];  // Метод заполнения случайными числами (тип int).
-                                    // На входе указываем размерность,
-                                    // На выходе сам массив
-    Random randomNum = new Random();  // Рандомизатор
+    double[] massive = new double[size];  // Метод заполнения случайными числами (тип double).
+                                          // На входе указываем размерность,
+                                          // На выходе сам массив
+    Random randomNum = new Random();      // Рандомизатор
     for (int i = 0; i < size; i++)
-        massive[i] = randomNum.Next(-1000, 1001);
+        massive[i] = (double)randomNum.NextDouble() + (int)randomNum.Next(-100, 101);  // заполняем массив вещественными числами. Как вариант можно просто умножить на 100
     return massive;
 }
-int DifferenceMaxMin(int[] massive)  // Метод выборки нечётных элементов и нахождения их суммы
-                                    // На входе массив, на выходе - сумма
+double[] DifferenceMaxMin(double[] massive)  // Метод выборки нечётных элементов и нахождения их суммы
+                                             // На входе массив, на выходе - сумма
 {
-    int[] mass = massive;
-    float dif = 0;
-    float max = 0;
-    float min = 0;
-    Console.Write("Выборка элементов массива на нечётных позициях: ");
+    double[] mass = massive;
+    double[] solutions = new double[3];  // Создаём массив, где:
+    solutions[0] = 0;  // 0 - й элемент - минимальный элемент,
+    solutions[1] = 0;  // 1 - й - максимальный,
+    solutions[2] = 0;  // 2 - й - разница min и мах
     for (int i = 0; i < mass.Length; i++)
     {
-        Console.Write(mass[i] + " ");
-        dif = dif + mass[i];
-        i++;
+        if (mass[i] < solutions[0])  // находим минимальное значение массива
+            solutions[0] = mass[i];
+        if (mass[i] > solutions[1])  // находим максимальное значение массива
+            solutions[1] = mass[i];
     }
-    Console.WriteLine();
-    return dif;
+    solutions[2] = solutions[1] - solutions[0];  // находим разницу max и min элементов массива.
+    return solutions;
 }
 
+
 Console.WriteLine("Программа автоматически заполняет массив из 10 элементов " +
-                  "случайными числами от -1000 до 1000. " +
-                  "\r\nНайдём сумму элементов, стоящих на нечётных позициях");
-int[] array = InputArray(10);
+                  "случайными вещественными числами от -100.0 до 100.0" +
+                  "\r\nНайдём разницу между максимальным и минимальным элементами массива");
+double[] array = InputArray(10);
+double[] result = DifferenceMaxMin(array);
 Console.ForegroundColor = ConsoleColor.Red;
-Console.Write("Получился массив: ");
+Console.WriteLine("Получился массив: ");
 for (int i = 0; i < array.Length; i++)
-    Console.Write(array[i] + " ");
+    Console.WriteLine("       " + array[i]);
 Console.WriteLine();
 Console.ForegroundColor = ConsoleColor.Yellow;
-Console.WriteLine("Cумма элементов, стоящих на нечётных позициях: " + DifferenceMaxMin(array));
+Console.WriteLine($"Минимльный элемент массива: {result[0]}. \r\nМаксимальный элемент массива: {result[1]}. \r\nИх разность: {result[2]}");
 Console.ForegroundColor = ConsoleColor.White;
