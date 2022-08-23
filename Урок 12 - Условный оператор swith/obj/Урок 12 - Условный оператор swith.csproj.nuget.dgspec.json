@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Programming\\Lessons C#\\Урок 12 - Условный оператор swith\\Урок 12 - Условный оператор swith.csproj": {}
+    "D:\\C#\\Терминал\\Урок 12 - Условный оператор swith\\Урок 12 - Условный оператор swith.csproj": {}
   },
   "projects": {
-    "E:\\Programming\\Lessons C#\\Урок 12 - Условный оператор swith\\Урок 12 - Условный оператор swith.csproj": {
+    "D:\\C#\\Терминал\\Урок 12 - Условный оператор swith\\Урок 12 - Условный оператор swith.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Programming\\Lessons C#\\Урок 12 - Условный оператор swith\\Урок 12 - Условный оператор swith.csproj",
+        "projectUniqueName": "D:\\C#\\Терминал\\Урок 12 - Условный оператор swith\\Урок 12 - Условный оператор swith.csproj",
         "projectName": "Урок 12 - Условный оператор swith",
-        "projectPath": "E:\\Programming\\Lessons C#\\Урок 12 - Условный оператор swith\\Урок 12 - Условный оператор swith.csproj",
+        "projectPath": "D:\\C#\\Терминал\\Урок 12 - Условный оператор swith\\Урок 12 - Условный оператор swith.csproj",
         "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
-        "outputPath": "E:\\Programming\\Lessons C#\\Урок 12 - Условный оператор swith\\obj\\",
+        "outputPath": "D:\\C#\\Терминал\\Урок 12 - Условный оператор swith\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,7 +45,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -58,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
