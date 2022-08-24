@@ -1,0 +1,15 @@
+D:\C#\Песочница\bin\Debug\net6.0\Песочница.exe
+D:\C#\Песочница\bin\Debug\net6.0\Песочница.deps.json
+D:\C#\Песочница\bin\Debug\net6.0\Песочница.runtimeconfig.json
+D:\C#\Песочница\bin\Debug\net6.0\Песочница.dll
+D:\C#\Песочница\bin\Debug\net6.0\Песочница.pdb
+D:\C#\Песочница\obj\Debug\net6.0\Песочница.csproj.AssemblyReference.cache
+D:\C#\Песочница\obj\Debug\net6.0\Песочница.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Песочница\obj\Debug\net6.0\Песочница.AssemblyInfoInputs.cache
+D:\C#\Песочница\obj\Debug\net6.0\Песочница.AssemblyInfo.cs
+D:\C#\Песочница\obj\Debug\net6.0\Песочница.csproj.CoreCompileInputs.cache
+D:\C#\Песочница\obj\Debug\net6.0\Песочница.dll
+D:\C#\Песочница\obj\Debug\net6.0\refint\Песочница.dll
+D:\C#\Песочница\obj\Debug\net6.0\Песочница.pdb
+D:\C#\Песочница\obj\Debug\net6.0\Песочница.genruntimeconfig.cache
+D:\C#\Песочница\obj\Debug\net6.0\ref\Песочница.dll

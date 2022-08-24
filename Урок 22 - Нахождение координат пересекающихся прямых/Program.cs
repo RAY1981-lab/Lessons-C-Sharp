@@ -18,36 +18,38 @@
 }
 
 
-double[] IntersectionPoint (double[] dataEntryMassive)
+
+
+double[] IntersectionPoint (double[] dataEntry)
 {
-    double[] dataEntryMassiveWork = dataEntryMassive;
     double[] coordinateDotA = new double[2];  // Массив из 2-х элементов - координаты точки пересечения (при наличии) прямых на плоскости
                                               // в виде A[0] - по оси Х, A[1] - по оси Y
 
-    do
+    if ((dataEntry[0] / dataEntry[1]) != (dataEntry[2] / dataEntry[3]))
     {
-        if ((dataEntryMassiveWork[0] / dataEntryMassiveWork[1]) != (dataEntryMassiveWork[2] / dataEntryMassiveWork[3]))
-        {
-            Console.WriteLine("Прямые параллельны => не пересекаются!");
-            break;
-        }
-        else if ((dataEntryMassiveWork[0] / dataEntryMassiveWork[1]) == (dataEntryMassiveWork[2] / dataEntryMassiveWork[3]))
-        {
-            Console.WriteLine("Прямые совпадают друг с другом!");
-            break;
-        }
-        else if ((dataEntryMassiveWork[0] / dataEntryMassiveWork[1]) == 1)  // у Y в уравнениях нет коэффициентов => 1/1 = 1
-        {
-            coordinateDotA[0] = (dataEntryMassiveWork[3] - dataEntryMassiveWork[2]) /
-                                (dataEntryMassiveWork[0] - dataEntryMassiveWork[1]);
-
-            coordinateDotA[1] = (dataEntryMassiveWork[1] * dataEntryMassiveWork[2]) - (dataEntryMassiveWork[0] - dataEntryMassiveWork[3]) /
-                                                            ((dataEntryMassiveWork[1] - dataEntryMassiveWork[0]));
-            return coordinateDotA;
-        }
+        Console.WriteLine("Прямые параллельны => не пересекаются!");
+        
     }
-    while (false);
+    else if ((dataEntry[0] / dataEntry[1]) == (dataEntry[2] / dataEntry[3]))
+    {
+        Console.WriteLine("Прямые совпадают друг с другом!");
+        
+    }
+    else if ((dataEntry[0] / dataEntry[1]) == 1)  // у Y в уравнениях нет коэффициентов => 1/1 = 1
+    {
+        coordinateDotA[0] = (dataEntry[3] - dataEntry[2]) /
+                            (dataEntry[0] - dataEntry[1]);
+
+        coordinateDotA[1] = (dataEntry[1] * dataEntry[2]) - (dataEntry[0] - dataEntry[3]) /
+                                           ((dataEntry[1] - dataEntry[0]));
+    }
+    return coordinateDotA;
 }
+
+
+//double[] FingInspectionPoint
+
+
 
 
 Console.WriteLine("Программа - определятор координаты точки пересечения (при наличии) прямых на плоскости \r\n" +
@@ -58,4 +60,5 @@ Console.WriteLine("Программа - определятор координа�
 double[] dataEntry = DataEntry();
 Console.WriteLine($"Получились уравнения прямых следующего вида: y = {dataEntry[0]}x + {dataEntry[2]}  и  y = {dataEntry[1]}x + {dataEntry[3]}");
 
+double[] intersectionPoint = IntersectionPoint(dataEntry)
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7QworU6fQfTa6YTy7Z7dGaZz0yTgaSM8tsxTxnRnNWCKbVxo5uEvX/oU60tEMX9Efp5ZWl9fiGulgsEp+spmLg==",
+  "dgSpecHash": "e3USAm4TLW798ovM7qar5txCyEC8gewcA+WztyqlD5f+k7V6+aROknRmsrKifb5Ooc8KO2gPZv0emStkLckBJA==",
   "success": true,
-  "projectFilePath": "E:\\Programming\\Lessons C#\\Урок 13 - Условный оператор switch (case ConsoleKey)\\Урок 13 - Условный оператор switch (case ConsoleKey).csproj",
+  "projectFilePath": "D:\\C#\\Урок 13 - Условный оператор switch (case ConsoleKey)\\Урок 13 - Условный оператор switch (case ConsoleKey).csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
