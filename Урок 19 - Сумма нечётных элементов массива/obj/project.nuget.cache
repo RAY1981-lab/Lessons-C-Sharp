@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "10N98XZLHXDpPFktiMU7LW4W4TMnsAckofNDQr2rS1PgCMwaGVDNwgh3Es9e63FpAZeUcDObbcH9YwDt+D34qw==",
+  "dgSpecHash": "3rIvs5BTqi0DWt8Zf4Daxz9M81EC88AgT8O1LXe+FWaLrV/lXd1ZpC4HMuChHWcNC427VfktKmIJBDXPHV4zCw==",
   "success": true,
-  "projectFilePath": "D:\\C#\\Урок 19 - Сумма нечётных элементов массива\\Урок 19 - Сумма нечётных элементов массива.csproj",
+  "projectFilePath": "E:\\Programming\\Lessons C#\\Урок 19 - Сумма нечётных элементов массива\\Урок 19 - Сумма нечётных элементов массива.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
