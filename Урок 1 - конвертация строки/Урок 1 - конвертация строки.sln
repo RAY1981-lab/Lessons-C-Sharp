@@ -47,7 +47,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Урок 21 - Сортир�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Урок 22 - Нахождение координат пересекающихся прямых", "..\Урок 22 - Нахождение координат пересекающихся прямых\Урок 22 - Нахождение координат пересекающихся прямых.csproj", "{D085B653-7C63-4634-9DA9-646555531DCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Песочница", "..\Песочница\Песочница.csproj", "{1D65D1A9-B31E-43EF-AA70-7624BA10C05B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Песочница", "..\Песочница\Песочница.csproj", "{1D65D1A9-B31E-43EF-AA70-7624BA10C05B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Урок 23 - Матрица. Выводим элемент по координатам", "..\Урок 23 - Матрица. Выводим элемент по координатам\Урок 23 - Матрица. Выводим элемент по координатам.csproj", "{6F14946A-8C28-4C6E-B81E-65A4228008F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Урок 24 - Среднее арифметическое столбцов матрицы", "..\Урок 24 - Среднее арифметическое столбцов матрицы\Урок 24 - Среднее арифметическое столбцов матрицы.csproj", "{3F18B68C-DB1D-47D1-BB62-653686F162C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +151,14 @@ Global
 		{1D65D1A9-B31E-43EF-AA70-7624BA10C05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D65D1A9-B31E-43EF-AA70-7624BA10C05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D65D1A9-B31E-43EF-AA70-7624BA10C05B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F14946A-8C28-4C6E-B81E-65A4228008F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F14946A-8C28-4C6E-B81E-65A4228008F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F14946A-8C28-4C6E-B81E-65A4228008F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F14946A-8C28-4C6E-B81E-65A4228008F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F18B68C-DB1D-47D1-BB62-653686F162C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F18B68C-DB1D-47D1-BB62-653686F162C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F18B68C-DB1D-47D1-BB62-653686F162C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F18B68C-DB1D-47D1-BB62-653686F162C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

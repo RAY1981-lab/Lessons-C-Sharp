@@ -43,16 +43,20 @@ string [] IntersectionPoint (double[] dataEntry)
     return coordinateDotAstr;
 }
 
-void DataOutput(double[] intersectionPoint)
+void DataOutput()
 {
-    intersectionPoint = IntersectionPoint(dataEntry);
+   double[]  dataEntry = DataEntry();
+    string[] intersectionPoint = IntersectionPoint(dataEntry);
     if (intersectionPoint[0] == "parall")
-
+        Console.WriteLine("Прямые параллельны => не пересекаются!");
+    else if (intersectionPoint[0] == "overlay")
+        Console.WriteLine("Прямые совпадают друг с другом!");
+    else
+    {
+       Console.WriteLine($"Координаты точки пересечения прямых y = {dataEntry[0]}x + {dataEntry[2]}  и  y = {dataEntry[1]}x + {dataEntry[3]} " +
+                         $"в точке A[{intersectionPoint[0]}, {intersectionPoint[1]}]");
+    }
 }
-
-
-
-
 
 
 
@@ -64,17 +68,5 @@ Console.WriteLine("Программа - определятор координа�
 double[] dataEntry = DataEntry();
 Console.WriteLine($"Получились уравнения прямых следующего вида: y = {dataEntry[0]}x + {dataEntry[2]}  и  y = {dataEntry[1]}x + {dataEntry[3]}");
 
+DataOutput();   // хз... надо доделать!
 
-
-
-
-
-string[] intersectionPoint = IntersectionPoint(dataEntry);
-
-Console.WriteLine($"Координаты точки пересечения прямых y = {dataEntry[0]}x + {dataEntry[2]}  и  y = {dataEntry[1]}x + {dataEntry[3]} " +
-                  $"в точке A[{intersectionPoint[0]}, {intersectionPoint[1]}]");
-
-
-Console.WriteLine("Прямые параллельны => не пересекаются!");
-
-Console.WriteLine("Прямые совпадают друг с другом!");
