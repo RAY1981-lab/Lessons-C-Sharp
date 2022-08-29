@@ -1,0 +1,15 @@
+D:\C#\Урок 25 - ООП. Введение\bin\Debug\net6.0\Урок 25 - ООП. Введение.exe
+D:\C#\Урок 25 - ООП. Введение\bin\Debug\net6.0\Урок 25 - ООП. Введение.deps.json
+D:\C#\Урок 25 - ООП. Введение\bin\Debug\net6.0\Урок 25 - ООП. Введение.runtimeconfig.json
+D:\C#\Урок 25 - ООП. Введение\bin\Debug\net6.0\Урок 25 - ООП. Введение.dll
+D:\C#\Урок 25 - ООП. Введение\bin\Debug\net6.0\Урок 25 - ООП. Введение.pdb
+D:\C#\Урок 25 - ООП. Введение\obj\Debug\net6.0\Урок 25 - ООП. Введение.csproj.AssemblyReference.cache
+D:\C#\Урок 25 - ООП. Введение\obj\Debug\net6.0\Урок 25 - ООП. Введение.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Урок 25 - ООП. Введение\obj\Debug\net6.0\Урок 25 - ООП. Введение.AssemblyInfoInputs.cache
+D:\C#\Урок 25 - ООП. Введение\obj\Debug\net6.0\Урок 25 - ООП. Введение.AssemblyInfo.cs
+D:\C#\Урок 25 - ООП. Введение\obj\Debug\net6.0\Урок 25 - ООП. Введение.csproj.CoreCompileInputs.cache
+D:\C#\Урок 25 - ООП. Введение\obj\Debug\net6.0\Урок 25 - ООП. Введение.dll
+D:\C#\Урок 25 - ООП. Введение\obj\Debug\net6.0\refint\Урок 25 - ООП. Введение.dll
+D:\C#\Урок 25 - ООП. Введение\obj\Debug\net6.0\Урок 25 - ООП. Введение.pdb
+D:\C#\Урок 25 - ООП. Введение\obj\Debug\net6.0\Урок 25 - ООП. Введение.genruntimeconfig.cache
+D:\C#\Урок 25 - ООП. Введение\obj\Debug\net6.0\ref\Урок 25 - ООП. Введение.dll
