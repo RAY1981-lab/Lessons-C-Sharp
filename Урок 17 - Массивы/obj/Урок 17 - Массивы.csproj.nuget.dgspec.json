@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\Урок 17 - Массивы\\Урок 17 - Массивы.csproj": {}
+    "E:\\Programming\\Lessons C#\\Урок 17 - Массивы\\Урок 17 - Массивы.csproj": {}
   },
   "projects": {
-    "D:\\C#\\Урок 17 - Массивы\\Урок 17 - Массивы.csproj": {
+    "E:\\Programming\\Lessons C#\\Урок 17 - Массивы\\Урок 17 - Массивы.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\Урок 17 - Массивы\\Урок 17 - Массивы.csproj",
+        "projectUniqueName": "E:\\Programming\\Lessons C#\\Урок 17 - Массивы\\Урок 17 - Массивы.csproj",
         "projectName": "Урок 17 - Массивы",
-        "projectPath": "D:\\C#\\Урок 17 - Массивы\\Урок 17 - Массивы.csproj",
+        "projectPath": "E:\\Programming\\Lessons C#\\Урок 17 - Массивы\\Урок 17 - Массивы.csproj",
         "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\Урок 17 - Массивы\\obj\\",
+        "outputPath": "E:\\Programming\\Lessons C#\\Урок 17 - Массивы\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,8 +49,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -55,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
