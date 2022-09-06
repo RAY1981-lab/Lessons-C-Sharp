@@ -7,46 +7,52 @@
 //26(1, 0, 1) 55(1, 1, 1)
 
 
-
-
-int[,,] Array3D(int length, int width, int height)
+int[,,] RandomArray3D(int[,,] array3D)
 {
-    int[,,] array = new int[length, width, height];
-    Random randomNum = new Random();
-    for (int i = 0; i < length; i++)
-        for (int j = 0; j < width; j++)
-            for (int k = 0; k < height; k++)
+    int[] vector = new int[array3D.GetLength(0) *  // Формируем временный массив векторного типа.В него
+                           array3D.GetLength(1) *  // помещаем количество всех ячеек из 3-хмерного массиве
+                           array3D.GetLength(2)]; 
+    int number;
+    for (int i = 0; i < vector.GetLength(0); i++)  // по оси Х
+    {
+        vector[i] = new Random().Next(10, 100);  // Из расчёта, что максимальный
+                                                 // размер массива 4х4х4 = 56. (5х5х5 = 125  -
+                                                 // не подходит, т.к. число уже трёзначное)
+                                                 // Допустим, числа положительные
+        number = vector[i];
+        if (i >= 1)
+        {
+            for (int j = 0; j < i; j++)  // по оси Y
             {
-                bool flag = false;
-                while (flag == false)
+                while (vector[i] == vector[j])
                 {
-                    array[i, j, k] = (int)randomNum.Next(10,100);  // Из расчёта, что максимальный
-                                                // размер массива 4х4х4 = 56. (5х5х5 = 125  -
-                                                // не подходит, т.к. число уже трёзначное)
-                                                // Допустим, числа положительные
-                    for (int a = 0; a < length; a++)
-                        for (int b = 0; b < width; b++)
-                            for (int c = 0; c < height; c++)
-                            {
-                                if (array[i, j, k] != array[a, b, c])
-                                    flag = true;
-                            }
+                    vector[i] = new Random().Next(10, 100);
+                    j = 0;
+                    number = vector[i];
                 }
+                number = vector[i];
             }
-    return array;
+        }
+    }
+    int count = 0;
+    for (int x = 0; x < array3D.GetLength(0); x++)
+       for (int y = 0; y < array3D.GetLength(1); y++)
+           for (int z = 0; z < array3D.GetLength(2); z++)
+           {
+               array3D[x, y, z] = vector[count];
+               count++;
+           }
+    return array3D;
 }
 
-
-void PrintArray3D(int[,,] array)
+void PrintArray3D(int[,,] array3D)
 {
-    for (int i = 0; i < array.GetLength(0); i++)
+    for (int i = 0; i < array3D.GetLength(0); i++)
     {
-        for (int j = 0; j < array.GetLength(1); j++)
+        for (int j = 0; j < array3D.GetLength(1); j++)
         {
-            for (int k = 0; k < array.GetLength(2); k++)
-            {
-                Console.Write($"{array[i,j,k]}({i},{j},{k}) {" "} \t");
-            }
+            for (int k = 0; k < array3D.GetLength(2); k++)
+                Console.Write($"{array3D[i, j, k]}({i},{j},{k}) {" "} \t");
             Console.WriteLine();
         }
         Console.WriteLine();
@@ -60,60 +66,60 @@ Console.WriteLine("Программа создаёт трёххмерный ма
 Console.WriteLine("Укажите размерность матрицы.");
 
 Console.Write("Введите количество ячеек по оси Х (желательно в пределах от 2 до 4): ");
-int i = Convert.ToInt32(Console.ReadLine());
-while (i <= 1 || i > 4)  // Условие "оптимального" заполнения числа ячеек по оси
+int x = Convert.ToInt32(Console.ReadLine());
+while (x <= 1 || x > 4)  // Условие "оптимального" заполнения числа ячеек по оси
 {
-    if (i <= 1)
+    if (x <= 1)
     {
         Console.WriteLine("По-братски, задай значение по-больше, но в пределах разумного");
         Console.Write("Введите количество ячеек по оси Х (желательно в пределах от 2 до 4): ");
-        i = Convert.ToInt32(Console.ReadLine());
+        x = Convert.ToInt32(Console.ReadLine());
     }
-    if (i > 4)
+    if (x > 4)
     {
         Console.WriteLine("По-братски, задай значение по-меньше, но в пределах разумного");
         Console.Write("Введите количество ячеек по оси Х (желательно в пределах от 2 до 4): ");
-        i = Convert.ToInt32(Console.ReadLine());
+        x = Convert.ToInt32(Console.ReadLine());
     }
 }
 
-
 Console.Write("Введите количество ячеек по оси Y: ");
-int j = Convert.ToInt32(Console.ReadLine());
-while (j <= 1 || j > 4)  // Условие "оптимального" заполнения числа ячеек по оси
+int y = Convert.ToInt32(Console.ReadLine());
+while (y <= 1 || y > 4)  // Условие "оптимального" заполнения числа ячеек по оси 
 {
-    if (j <= 1)
+    if (y <= 1)
     {
         Console.WriteLine("По-братски, задай значение по-больше, но в пределах разумного");
         Console.Write("Введите количество ячеек по оси Y (желательно в пределах от 2 до 4): ");
-        j = Convert.ToInt32(Console.ReadLine());
+        y = Convert.ToInt32(Console.ReadLine());
     }
-    if (j > 4)
+    if (y > 4)
     {
         Console.WriteLine("По-братски, задай значение по-меньше, но в пределах разумного");
         Console.Write("Введите количество ячеек по оси Y (желательно в пределах от 2 до 4): ");
-        j = Convert.ToInt32(Console.ReadLine());
+        y = Convert.ToInt32(Console.ReadLine());
     }
 }
 
 Console.Write("Введите количество ячеек по оси Z: ");
-int k = Convert.ToInt32(Console.ReadLine());
-while (k <= 1 || k > 4)  // Условие "оптимального" заполнения числа ячеек по оси
+int z = Convert.ToInt32(Console.ReadLine());
+while (z <= 1 || z > 4)  // Условие "оптимального" заполнения числа ячеек по оси
 {
-    if (k <= 1)
+    if (z <= 1)
     {
         Console.WriteLine("По-братски, задай значение по-больше, но в пределах разумного");
         Console.Write("Введите количество ячеек по оси Z (желательно в пределах от 2 до 4): ");
-        k = Convert.ToInt32(Console.ReadLine());
+        z = Convert.ToInt32(Console.ReadLine());
     }
-    if (k > 4)
+    if (z > 4)
     {
         Console.WriteLine("По-братски, задай значение по-меньше, но в пределах разумного");
         Console.Write("Введите количество ячеек по оси Z (желательно в пределах от 2 до 4): ");
-        k = Convert.ToInt32(Console.ReadLine());
+        z = Convert.ToInt32(Console.ReadLine());
     }
 }
 
-int[,,] array3D = Array3D(i,j,k);
-
-PrintArray3D(array3D);
+Console.WriteLine();
+int[,,] array3D = new int[x,y,z];
+int[,,] randomArray3d = RandomArray3D(array3D);
+PrintArray3D(randomArray3d);
