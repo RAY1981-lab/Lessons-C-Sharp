@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\Урок 22 - Нахождение координат пересекающихся прямых\\Урок 22 - Нахождение координат пересекающихся прямых.csproj": {}
+    "E:\\Programming\\Lessons C#\\Урок 22 - Нахождение координат пересекающихся прямых\\Урок 22 - Нахождение координат пересекающихся прямых.csproj": {}
   },
   "projects": {
-    "D:\\C#\\Урок 22 - Нахождение координат пересекающихся прямых\\Урок 22 - Нахождение координат пересекающихся прямых.csproj": {
+    "E:\\Programming\\Lessons C#\\Урок 22 - Нахождение координат пересекающихся прямых\\Урок 22 - Нахождение координат пересекающихся прямых.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\Урок 22 - Нахождение координат пересекающихся прямых\\Урок 22 - Нахождение координат пересекающихся прямых.csproj",
+        "projectUniqueName": "E:\\Programming\\Lessons C#\\Урок 22 - Нахождение координат пересекающихся прямых\\Урок 22 - Нахождение координат пересекающихся прямых.csproj",
         "projectName": "Урок 22 - Нахождение координат пересекающихся прямых",
-        "projectPath": "D:\\C#\\Урок 22 - Нахождение координат пересекающихся прямых\\Урок 22 - Нахождение координат пересекающихся прямых.csproj",
+        "projectPath": "E:\\Programming\\Lessons C#\\Урок 22 - Нахождение координат пересекающихся прямых\\Урок 22 - Нахождение координат пересекающихся прямых.csproj",
         "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\Урок 22 - Нахождение координат пересекающихся прямых\\obj\\",
+        "outputPath": "E:\\Programming\\Lessons C#\\Урок 22 - Нахождение координат пересекающихся прямых\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,8 +49,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -55,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

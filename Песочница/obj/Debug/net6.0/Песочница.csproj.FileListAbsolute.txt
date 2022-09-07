@@ -13,3 +13,18 @@ D:\C#\Песочница\obj\Debug\net6.0\refint\Песочница.dll
 D:\C#\Песочница\obj\Debug\net6.0\Песочница.pdb
 D:\C#\Песочница\obj\Debug\net6.0\Песочница.genruntimeconfig.cache
 D:\C#\Песочница\obj\Debug\net6.0\ref\Песочница.dll
+E:\Programming\Lessons C#\Песочница\bin\Debug\net6.0\Песочница.exe
+E:\Programming\Lessons C#\Песочница\bin\Debug\net6.0\Песочница.deps.json
+E:\Programming\Lessons C#\Песочница\bin\Debug\net6.0\Песочница.runtimeconfig.json
+E:\Programming\Lessons C#\Песочница\bin\Debug\net6.0\Песочница.dll
+E:\Programming\Lessons C#\Песочница\bin\Debug\net6.0\Песочница.pdb
+E:\Programming\Lessons C#\Песочница\obj\Debug\net6.0\Песочница.csproj.AssemblyReference.cache
+E:\Programming\Lessons C#\Песочница\obj\Debug\net6.0\Песочница.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programming\Lessons C#\Песочница\obj\Debug\net6.0\Песочница.AssemblyInfoInputs.cache
+E:\Programming\Lessons C#\Песочница\obj\Debug\net6.0\Песочница.AssemblyInfo.cs
+E:\Programming\Lessons C#\Песочница\obj\Debug\net6.0\Песочница.csproj.CoreCompileInputs.cache
+E:\Programming\Lessons C#\Песочница\obj\Debug\net6.0\Песочница.dll
+E:\Programming\Lessons C#\Песочница\obj\Debug\net6.0\refint\Песочница.dll
+E:\Programming\Lessons C#\Песочница\obj\Debug\net6.0\Песочница.pdb
+E:\Programming\Lessons C#\Песочница\obj\Debug\net6.0\Песочница.genruntimeconfig.cache
+E:\Programming\Lessons C#\Песочница\obj\Debug\net6.0\ref\Песочница.dll
